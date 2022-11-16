@@ -1,3 +1,14 @@
+# The aim for this project is to look back n class compoenent on the old react and also it covers lifeCycle in react.
+   The New version of react uses class components. 
+
+# Class defination in Javascript React
+  this is simple a blueprint for creating objects that have the same properties and access the same methods
+  
+
+   
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
