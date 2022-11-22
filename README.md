@@ -2,10 +2,9 @@
    The New version of react uses class components. 
 
 # Class defination in Javascript React
-  this is simple a blueprint for creating objects that have the same properties and access the same methods
-  
+  This is simple a blueprint for creating objects that have the same properties and access the same methods
 
-   
+  Note:- Using Props in class component we no logger have to accetpt props anywhere it will be automatically be added to the object that grt created with this class.
 
 
 
