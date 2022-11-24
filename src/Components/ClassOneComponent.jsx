@@ -27,8 +27,8 @@ export default class ClassOneComponent extends Component {
         }}
       >
         <div>
-           <Header username="martins"/>
-           <Greeting/>
+          <Header username="martins" />
+          <Greeting />
         </div>
       </div>
     );
@@ -36,13 +36,13 @@ export default class ClassOneComponent extends Component {
 }
 
 class Header extends Component {
-    render() {
-        return (
-             <header>
-               <p>welcome, {this.props.username}! </p>
-            </header>
-        )
-    }
+  render() {
+    return (
+      <header>
+        <p>welcome, {this.props.username}! </p>
+      </header>
+    );
+  }
 }
 
 class Greeting extends Component {
@@ -52,20 +52,19 @@ class Greeting extends Component {
     let timeOfDay;
 
     if (hours < 12) {
-      timeOfDay = "Morning"
+      timeOfDay = "Morning";
     } else if (hours >= 12 && hours < 17) {
-      timeOfDay = "Afternoon"
+      timeOfDay = "Afternoon";
     } else {
-      timeOfDay = "night"
+      timeOfDay = "night";
     }
 
-    return (<>
-       <div
-         style={{ color: "white",
-         fontSize: "50px",
-        }}
-       
-       >Good {timeOfDay} to you, sir or Madam!</div>
-    </>);
+    return (
+      <>
+        <div style={{ color: "white", fontSize: "50px" }}>
+          Good {timeOfDay} to you, sir or Madam!
+        </div>
+      </>
+    );
   }
 }
