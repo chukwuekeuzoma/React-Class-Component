@@ -9,6 +9,12 @@
   In a class component state will always be an object and every piece od data we want to save will be a property on that object not only that but the object needs to be called state.
   There two different syntax that can be used for state   in react class components. we have class field
 
+# React LIfecycle Methods
+
+ Mounting === ComponentDidMount
+ Update === ComponentDidUpdate
+ Unmounting === ComponentWillUnmount  
+
 
 
 # Getting Started with Create React App
