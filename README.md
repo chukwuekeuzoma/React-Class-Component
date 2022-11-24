@@ -6,6 +6,9 @@
 
   Note:- Using Props in class component we no logger have to accetpt props anywhere it will be automatically be added to the object that grt created with this class.
 
+  In a class component state will always be an object and every piece od data we want to save will be a property on that object not only that but the object needs to be called state.
+  There two different syntax that can be used for state   in react class components. we have class field
+
 
 
 # Getting Started with Create React App
