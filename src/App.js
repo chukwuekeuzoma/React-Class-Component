@@ -7,9 +7,9 @@ import StateInClassComponent from "./Components/StateInClassComponent";
 function App() {
   return (
     <>
-      {/* <ClassOneComponent /> */}
-      {/* <StateInClassComponent /> */}
-      <ConstructorMethodsinClassComponent />
+      <ClassOneComponent />
+       {/* <StateInClassComponent /> 
+       <ConstructorMethodsinClassComponent />  */}
     </>
   );
 }

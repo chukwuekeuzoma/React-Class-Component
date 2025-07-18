@@ -27,8 +27,9 @@ export default class ClassOneComponent extends Component {
         }}
       >
         <div>
-          <Header username="martins" />
-          <Greeting />
+          {/* <Header username="martins" /> */}
+          {/* <Greeting /> */}
+          <GreetingThree  />
         </div>
       </div>
     );
@@ -65,6 +66,58 @@ class Greeting extends Component {
           Good {timeOfDay} to you, sir or Madam!
         </div>
       </>
+    );
+  }
+}
+
+class GreetingTwo extends Component {
+  // i will like to use the old binding method here just doing it as an example
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "Martins",
+    };
+    this.updateMartins = this.updateMartins.bind(this);
+  }
+
+  updateMartins() {
+    this.setState({
+      name: "Uzoma",
+    });
+  }
+
+  render() {
+    return (
+      <div
+        onClick={this.updateMartins}
+        style={{ color: "white", fontSize: "50px" }}
+      >
+        {this.state.name}
+      </div>
+    );
+  }
+}
+
+class GreetingThree extends Component {
+  state = {
+    name: "martins",
+  };
+
+  updateMartins = () => {
+    this.setState({
+      name: "Uzoma",
+    });
+  };
+
+  render() {
+    return (
+      <div
+        onClick={this.updateMartins}
+        style={{ color: "white", fontSize: "50px" }}
+      >
+        {this.state.name}
+      </div>
     );
   }
 }
